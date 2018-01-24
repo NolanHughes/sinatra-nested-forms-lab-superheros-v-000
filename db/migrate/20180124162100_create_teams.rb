@@ -1,8 +1,8 @@
 class CreateTeams < ActiveRecord::Migration[5.1]
   def change
     create_table :teams do |column|
-      t.string :name
-      t.string :motto
+      column.string :name
+      column.string :motto
     end
   end
 end
