@@ -1,3 +1,3 @@
-class Hero < ActiveRecord::base
+class Hero < ActiveRecord::Base
   belongs_to :team
 end
