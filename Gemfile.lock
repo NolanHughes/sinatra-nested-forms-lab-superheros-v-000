@@ -107,6 +107,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   capybara (= 2.5.0)
   pry
   rack-test (>= 0.5.4)
