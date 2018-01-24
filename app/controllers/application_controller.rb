@@ -7,9 +7,9 @@ class App < Sinatra::Base
     erb :'index'
   end
 
-  get '/' do
-    erb :'new'
-  end
+  # get '/' do
+  #   erb :'new'
+  # end
 
   post '/teams' do
     @team = params
