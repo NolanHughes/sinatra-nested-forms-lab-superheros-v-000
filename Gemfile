@@ -6,7 +6,6 @@ source "https://rubygems.org"
 gem 'thin', '1.6.4'
 gem 'sinatra', require: 'sinatra/base'
 gem 'sinatra-reloader', require: false
-gem 'activerecord', :require => 'active_record'
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord' #maybe delete?
 gem 'sqlite3'
 gem 'shotgun'
